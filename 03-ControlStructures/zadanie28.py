@@ -1,9 +1,10 @@
-licznik = 0
 pierwsza = 0
 druga = 1
-pomocnicza = 0
-for i in range(50):
-    if i == 0:
-        print(pierwsza,end=" ")
-    elif i == 1:
-        print(druga,end=" ")
+ilosc = 50
+print(pierwsza,druga,end=" ")
+while ilosc - 2>0:
+    trzecia = pierwsza + druga
+    pierwsza = druga
+    druga = trzecia
+    print(trzecia,end=" ")
+    ilosc = ilosc - 1

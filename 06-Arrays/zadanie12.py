@@ -4,7 +4,7 @@ print(len(arr),len(arr[0]))
 print(arr[0][1])
 print(arr[1][2])
 print(arr[1])
-# print(arr[0],arr[1])
 for i in arr:
     print(i)
-for i in
+for i in range(len(arr)):
+    print(arr[i][2])
